@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Wpf_exercisesModelStoreContainer" CdmEntityContainer="Wpf_exercisesEntities">
+    <EntitySetMapping Name="excercises">
+      <EntityTypeMapping TypeName="Wpf_exercisesModel.excercises">
+        <MappingFragment StoreEntitySet="excercises">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="first_column" ColumnName="first_column" />
+          <ScalarProperty Name="second_column" ColumnName="second_column" />
+          <ScalarProperty Name="thrid_column" ColumnName="thrid_column" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
