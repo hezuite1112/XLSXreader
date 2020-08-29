@@ -30,6 +30,12 @@ namespace XMLLoader
             InitializeComponent();
         }
 
+        /// <summary>
+        /// Class response for converting .xml into database friendly data.
+        /// At the end class insert converted data into table.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void selectButton_Click(object sender, RoutedEventArgs e)
         {
             FileInfo fileLocation = new FileInfo(fileBlock.Text);
@@ -72,6 +78,11 @@ namespace XMLLoader
             main1.Text = "Udało się! Dodano: " + objectArrayList.Count() + " pozycji!";
         }
 
+        /// <summary>
+        /// Class response for showing explorer and selecting file.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void fileBlock_GotFocus(object sender, RoutedEventArgs e)
         {
             // Configure open file dialog box
